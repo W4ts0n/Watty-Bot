@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pull": "git pull origin master",
+    "commit": "git add --all && git commit -m"
   },
-  "author": "",
+  "author": "Dylan Tyler Watson, Eugene Guanyu Zhang",
   "license": "ISC",
   "description": "",
   "dependencies": {
